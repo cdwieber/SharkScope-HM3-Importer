@@ -20,10 +20,10 @@ Ensure HM3 is closed during this operation.
 2. Move it to the same directory as the script and rename it 'tourneys.csv'.
 
 3. Open the python script, and edit lines 5 and 6 to reflect your WPN username and the location of your HM3 database (the default location is provided).
-
+```python
     db_file = 'C:\HM3 Files\Databases\MyHM3Database.hmdb'
     player_name = 'yourWPNname'
-
+```
 4. Open a terminal in the run the script (e.g. ```py3 hm3fix.py```). The script will parse the CSV file and start writing your SharkScope results into HM3.
 
 If all goes well, your HM3 results should now be totally congruent with SharkScope.
